@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=image_install_gui
-Exec=xterm -e /usr/local/bin/image_install_gui
-Terminal=false
-Type=Application
-Categories=Configuration
-X-GNOME-Autostart-Phase=Initialization
-X-KDE-autostart-phase=1
