@@ -24,6 +24,7 @@ To generate the Arch installation ISO, follow these steps:
 
 
 # How to Customize your image_installation_gui
+![GitHub Logo](/image_installation_gui.png)
   - Requirement
     - python3
     - python3 pyinstaller module
