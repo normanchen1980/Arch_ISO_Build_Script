@@ -70,19 +70,16 @@ while True:
     else:
         if available_drive[0] == "NVMe":
             commandLine = "lxterminal -e bash -lic '/usr/local/bin/arch_install_nvme.sh %s %s'"%(available_drive[1],sie_site)
-            #os.system(commandLine)
             from subprocess import Popen
             Popen(commandLine, shell=True)             
 
         elif values["LEGACY_BOOT"] == True:
             commandLine = "lxterminal -e bash -lic '/usr/local/bin/arch_install.sh %s %s'"%(available_drive[1],sie_site)
-            #os.system(commandLine)
             from subprocess import Popen
             Popen(commandLine, shell=True) 
             
         elif values["UEFI_BOOT"] == True:
             commandLine = "lxterminal -e bash -lic '/usr/local/bin/arch_install_uefi.sh %s %s'"%(available_drive[1],sie_site)
-            #os.system(commandLine)
             from subprocess import Popen
             Popen(commandLine, shell=True) 
         
