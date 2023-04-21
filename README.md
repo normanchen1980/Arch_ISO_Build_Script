@@ -17,7 +17,12 @@ To generate the Arch installation ISO, follow these steps:
 - Open the terminal and navigate to the Arch_ISO_Build_Script directory.
 - Run the command sudo pacman-key --refresh-keys to refresh the keys.
 - Run the command sudo mkarchiso -v -w work -o out releng_work to generate the ISO @ <out> folder.
-  
+  [Arch_ISO_Build_Script ] $ ls
+    image_install_gui  out  releng  work
+  [out]$ ls
+    archlinux-2023.04.21-x86_64.iso
+
+
 # How to Customize your image_installation_gui
   - Requirement
     - python3
